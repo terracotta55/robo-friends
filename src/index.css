@@ -4,6 +4,8 @@ body {
 	font-family: "Ubuntu", "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+background: rgb(38,252,2);
+background: linear-gradient(0deg, rgba(38,252,2,1) 0%, rgba(117,121,117,1) 100%);
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
