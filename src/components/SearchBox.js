@@ -5,7 +5,7 @@ export const SearchBox = ({ searchChange }) => {
 	return (
 		<Fragment>
 			<div className="pa2">
-				<input className="pa2 bg-lightest-blue ba b--green br2 bw1 shadow-3" type="search" placeholder="search robots" onChange ={searchChange} />
+				<input className="pa2 bg-moon-gray ba b--yellow br2 bw2 shadow-3" type="search" placeholder="search robots" onChange ={searchChange} />
 			</div>
 		</Fragment>
 	);
