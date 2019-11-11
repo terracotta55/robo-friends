@@ -28,9 +28,6 @@ export class App extends Component {
 		const { robots, searchfield } = this.state;
 		const filteredRobots = this.state.robots.filter(robot => robot.name.toLowerCase().includes(searchfield.toLowerCase()));
 		// console.log(filteredRobots);
-		if (!robots.length) {
-			return <h2>Page Loading...</h2>;
-		}
 		return (
 			<Fragment>
 				<div className="tc">
